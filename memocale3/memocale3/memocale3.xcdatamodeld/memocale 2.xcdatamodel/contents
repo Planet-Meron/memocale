@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Action" representedClassName="Action">
+        <attribute name="memoText" attributeType="String" defaultValueString="memomemo" syncable="YES"/>
+        <attribute name="timeStamp" attributeType="Date" syncable="YES"/>
+        <attribute name="x" attributeType="Float" defaultValueString="50" syncable="YES"/>
+        <attribute name="y" attributeType="Float" defaultValueString="50" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Action" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

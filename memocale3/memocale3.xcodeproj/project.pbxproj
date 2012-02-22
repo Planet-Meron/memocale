@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373B49E314A58B6C004A6BB4 /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373B49E114A58B6C004A6BB4 /* MemoViewController.m */; };
+		373B49E814A58D51004A6BB4 /* MemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 373B49E714A58D51004A6BB4 /* MemoView.m */; };
+		373E273C14BA324200D4D271 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 373E273B14BA324200D4D271 /* Action.m */; };
+		374B98CC14A37D57001EA901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B98CB14A37D57001EA901 /* UIKit.framework */; };
+		374B98CE14A37D57001EA901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B98CD14A37D57001EA901 /* Foundation.framework */; };
+		374B98D014A37D57001EA901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B98CF14A37D57001EA901 /* CoreGraphics.framework */; };
+		374B98D214A37D57001EA901 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B98D114A37D57001EA901 /* CoreData.framework */; };
+		374B98D814A37D57001EA901 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374B98D614A37D57001EA901 /* InfoPlist.strings */; };
+		374B98DA14A37D57001EA901 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B98D914A37D57001EA901 /* main.m */; };
+		374B98DE14A37D57001EA901 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B98DD14A37D57001EA901 /* AppDelegate.m */; };
+		374B98EA14A37D87001EA901 /* DayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B98E914A37D87001EA901 /* DayButton.m */; };
+		374B98ED14A38B67001EA901 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B98EC14A38B67001EA901 /* MainViewController.m */; };
+		374B98F014A39017001EA901 /* CallendarView_year.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B98EF14A39017001EA901 /* CallendarView_year.m */; };
+		3769378914AE36360075775D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769378814AE36360075775D /* QuartzCore.framework */; };
+		3777A18414A4B6D500B61EA9 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3777A17E14A4B6D500B61EA9 /* left-arrow.png */; };
+		3777A18614A4B6D500B61EA9 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3777A18014A4B6D500B61EA9 /* right-arrow.png */; };
+		3777A18814A4B6D500B61EA9 /* square-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 3777A18214A4B6D500B61EA9 /* square-paper.png */; };
+		3777A18914A4B6D500B61EA9 /* square-paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3777A18314A4B6D500B61EA9 /* square-paper@2x.png */; };
+		378FFFC214B368C6000E59D6 /* MemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FFFC114B368C6000E59D6 /* MemoTableViewController.m */; };
+		378FFFC714B38175000E59D6 /* memocale3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 374B98DF14A37D57001EA901 /* memocale3.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		373B49E014A58B6C004A6BB4 /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
+		373B49E114A58B6C004A6BB4 /* MemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
+		373B49E614A58D51004A6BB4 /* MemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoView.h; sourceTree = "<group>"; };
+		373B49E714A58D51004A6BB4 /* MemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoView.m; sourceTree = "<group>"; };
+		373E273A14BA324200D4D271 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		373E273B14BA324200D4D271 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		374B98C714A37D57001EA901 /* memocale3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memocale3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		374B98CB14A37D57001EA901 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		374B98CD14A37D57001EA901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		374B98CF14A37D57001EA901 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		374B98D114A37D57001EA901 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		374B98D514A37D57001EA901 /* memocale3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memocale3-Info.plist"; sourceTree = "<group>"; };
+		374B98D714A37D57001EA901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		374B98D914A37D57001EA901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		374B98DB14A37D57001EA901 /* memocale3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memocale3-Prefix.pch"; sourceTree = "<group>"; };
+		374B98DC14A37D57001EA901 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		374B98DD14A37D57001EA901 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		374B98E014A37D57001EA901 /* memocale3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = memocale3.xcdatamodel; sourceTree = "<group>"; };
+		374B98E814A37D87001EA901 /* DayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayButton.h; sourceTree = "<group>"; };
+		374B98E914A37D87001EA901 /* DayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayButton.m; sourceTree = "<group>"; };
+		374B98EB14A38B67001EA901 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		374B98EC14A38B67001EA901 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		374B98EE14A39017001EA901 /* CallendarView_year.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallendarView_year.h; sourceTree = "<group>"; };
+		374B98EF14A39017001EA901 /* CallendarView_year.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallendarView_year.m; sourceTree = "<group>"; };
+		3769378814AE36360075775D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3777A17E14A4B6D500B61EA9 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		3777A18014A4B6D500B61EA9 /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		3777A18214A4B6D500B61EA9 /* square-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-paper.png"; sourceTree = "<group>"; };
+		3777A18314A4B6D500B61EA9 /* square-paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-paper@2x.png"; sourceTree = "<group>"; };
+		378FFFC014B368C6000E59D6 /* MemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoTableViewController.h; sourceTree = "<group>"; };
+		378FFFC114B368C6000E59D6 /* MemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoTableViewController.m; sourceTree = "<group>"; };
+		378FFFC614B380E8000E59D6 /* memocale 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "memocale 2.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374B98C414A37D57001EA901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3769378914AE36360075775D /* QuartzCore.framework in Frameworks */,
+				374B98CC14A37D57001EA901 /* UIKit.framework in Frameworks */,
+				374B98CE14A37D57001EA901 /* Foundation.framework in Frameworks */,
+				374B98D014A37D57001EA901 /* CoreGraphics.framework in Frameworks */,
+				374B98D214A37D57001EA901 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374B98BC14A37D57001EA901 = {
+			isa = PBXGroup;
+			children = (
+				374B98D314A37D57001EA901 /* memocale3 */,
+				374B98CA14A37D57001EA901 /* Frameworks */,
+				374B98C814A37D57001EA901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374B98C814A37D57001EA901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374B98C714A37D57001EA901 /* memocale3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374B98CA14A37D57001EA901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3769378814AE36360075775D /* QuartzCore.framework */,
+				374B98CB14A37D57001EA901 /* UIKit.framework */,
+				374B98CD14A37D57001EA901 /* Foundation.framework */,
+				374B98CF14A37D57001EA901 /* CoreGraphics.framework */,
+				374B98D114A37D57001EA901 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374B98D314A37D57001EA901 /* memocale3 */ = {
+			isa = PBXGroup;
+			children = (
+				374B98DC14A37D57001EA901 /* AppDelegate.h */,
+				374B98DD14A37D57001EA901 /* AppDelegate.m */,
+				3777A17D14A4B6D500B61EA9 /* Images */,
+				374B98EB14A38B67001EA901 /* MainViewController.h */,
+				374B98EC14A38B67001EA901 /* MainViewController.m */,
+				374B98E714A37D5F001EA901 /* CalView */,
+				374B98DF14A37D57001EA901 /* memocale3.xcdatamodeld */,
+				373E273A14BA324200D4D271 /* Action.h */,
+				373E273B14BA324200D4D271 /* Action.m */,
+				374B98D414A37D57001EA901 /* Supporting Files */,
+				373B49E014A58B6C004A6BB4 /* MemoViewController.h */,
+				373B49E114A58B6C004A6BB4 /* MemoViewController.m */,
+				378FFFC514B368E0000E59D6 /* MemoViewSupport */,
+				378FFFC014B368C6000E59D6 /* MemoTableViewController.h */,
+				378FFFC114B368C6000E59D6 /* MemoTableViewController.m */,
+			);
+			path = memocale3;
+			sourceTree = "<group>";
+		};
+		374B98D414A37D57001EA901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				374B98D514A37D57001EA901 /* memocale3-Info.plist */,
+				374B98D614A37D57001EA901 /* InfoPlist.strings */,
+				374B98D914A37D57001EA901 /* main.m */,
+				374B98DB14A37D57001EA901 /* memocale3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		374B98E714A37D5F001EA901 /* CalView */ = {
+			isa = PBXGroup;
+			children = (
+				374B98E814A37D87001EA901 /* DayButton.h */,
+				374B98E914A37D87001EA901 /* DayButton.m */,
+				374B98EE14A39017001EA901 /* CallendarView_year.h */,
+				374B98EF14A39017001EA901 /* CallendarView_year.m */,
+			);
+			name = CalView;
+			sourceTree = "<group>";
+		};
+		3777A17D14A4B6D500B61EA9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3777A17E14A4B6D500B61EA9 /* left-arrow.png */,
+				3777A18014A4B6D500B61EA9 /* right-arrow.png */,
+				3777A18214A4B6D500B61EA9 /* square-paper.png */,
+				3777A18314A4B6D500B61EA9 /* square-paper@2x.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		378FFFC514B368E0000E59D6 /* MemoViewSupport */ = {
+			isa = PBXGroup;
+			children = (
+				373B49E614A58D51004A6BB4 /* MemoView.h */,
+				373B49E714A58D51004A6BB4 /* MemoView.m */,
+			);
+			name = MemoViewSupport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374B98C614A37D57001EA901 /* memocale3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374B98E414A37D57001EA901 /* Build configuration list for PBXNativeTarget "memocale3" */;
+			buildPhases = (
+				374B98C314A37D57001EA901 /* Sources */,
+				374B98C414A37D57001EA901 /* Frameworks */,
+				374B98C514A37D57001EA901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memocale3;
+			productName = memocale3;
+			productReference = 374B98C714A37D57001EA901 /* memocale3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		374B98BE14A37D57001EA901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "横浜国立大学";
+			};
+			buildConfigurationList = 374B98C114A37D57001EA901 /* Build configuration list for PBXProject "memocale3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 374B98BC14A37D57001EA901;
+			productRefGroup = 374B98C814A37D57001EA901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374B98C614A37D57001EA901 /* memocale3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		374B98C514A37D57001EA901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374B98D814A37D57001EA901 /* InfoPlist.strings in Resources */,
+				3777A18414A4B6D500B61EA9 /* left-arrow.png in Resources */,
+				3777A18614A4B6D500B61EA9 /* right-arrow.png in Resources */,
+				3777A18814A4B6D500B61EA9 /* square-paper.png in Resources */,
+				3777A18914A4B6D500B61EA9 /* square-paper@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374B98C314A37D57001EA901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374B98DA14A37D57001EA901 /* main.m in Sources */,
+				374B98DE14A37D57001EA901 /* AppDelegate.m in Sources */,
+				374B98EA14A37D87001EA901 /* DayButton.m in Sources */,
+				374B98ED14A38B67001EA901 /* MainViewController.m in Sources */,
+				374B98F014A39017001EA901 /* CallendarView_year.m in Sources */,
+				373B49E314A58B6C004A6BB4 /* MemoViewController.m in Sources */,
+				373B49E814A58D51004A6BB4 /* MemoView.m in Sources */,
+				378FFFC214B368C6000E59D6 /* MemoTableViewController.m in Sources */,
+				378FFFC714B38175000E59D6 /* memocale3.xcdatamodeld in Sources */,
+				373E273C14BA324200D4D271 /* Action.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		374B98D614A37D57001EA901 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				374B98D714A37D57001EA901 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		374B98E214A37D57001EA901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		374B98E314A37D57001EA901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		374B98E514A37D57001EA901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memocale3/memocale3-Prefix.pch";
+				INFOPLIST_FILE = "memocale3/memocale3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		374B98E614A37D57001EA901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memocale3/memocale3-Prefix.pch";
+				INFOPLIST_FILE = "memocale3/memocale3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374B98C114A37D57001EA901 /* Build configuration list for PBXProject "memocale3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374B98E214A37D57001EA901 /* Debug */,
+				374B98E314A37D57001EA901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374B98E414A37D57001EA901 /* Build configuration list for PBXNativeTarget "memocale3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374B98E514A37D57001EA901 /* Debug */,
+				374B98E614A37D57001EA901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		374B98DF14A37D57001EA901 /* memocale3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				378FFFC614B380E8000E59D6 /* memocale 2.xcdatamodel */,
+				374B98E014A37D57001EA901 /* memocale3.xcdatamodel */,
+			);
+			currentVersion = 378FFFC614B380E8000E59D6 /* memocale 2.xcdatamodel */;
+			path = memocale3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 374B98BE14A37D57001EA901 /* Project object */;
+}
