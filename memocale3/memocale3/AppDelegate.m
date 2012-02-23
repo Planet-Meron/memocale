@@ -17,7 +17,7 @@
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize memoTableViewController = __memoTableViewController;
-@synthesize memoVc = __memoVc;
+//@synthesize memoVc = __memoVc;
 
 - (void)dealloc
 {
@@ -26,14 +26,15 @@
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
     [__memoTableViewController release];
-    [__memoVc release];
+//    [__memoVc release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
     // Override point for customization after application launch.
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.backgroundColor = [UIColor whiteColor];
     
     //MemoTableViewController
@@ -42,13 +43,8 @@
     
     //MainViewController
     MainViewController *viewController = [[MainViewController alloc] init];
-    //viewController.managedObjectContext = self.managedObjectContext;
     [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];
-    
-    //MemoViewController
-//    __memoVc = [[MemoViewController alloc] initWithNibName:nil bundle:nil];
-//    __memoVc.managedObjectContext = self.managedObjectContext;
     
     return YES;
 }

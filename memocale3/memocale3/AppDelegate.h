@@ -27,7 +27,7 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
-@property (strong, nonatomic) MemoViewController *memoVc;
+//@property (strong, nonatomic) MemoViewController *memoVc;
 @property (strong, nonatomic) MemoTableViewController *memoTableViewController;
 
 @end

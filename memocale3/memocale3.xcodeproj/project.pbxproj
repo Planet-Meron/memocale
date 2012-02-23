@@ -199,7 +199,7 @@
 		374B98BE14A37D57001EA901 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "横浜国立大学";
 			};
 			buildConfigurationList = 374B98C114A37D57001EA901 /* Build configuration list for PBXProject "memocale3" */;

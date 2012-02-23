@@ -25,11 +25,6 @@
 - (void)backCalendar_year;
 - (void)plus_memo;
 - (void)undo;
-- (void)input_memo;
-- (void)load;
-- (void)createNewObject:(NSString *)memo save_x:(float)x save_y:(float)y;
-- (void)createMemo:(NSString *)memo put_x:(float)x put_y:(float)y atIndex:(NSIndexPath *)atIndex load:(BOOL)yes_or_no;
-
 
 //NSFetchRequestController
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
